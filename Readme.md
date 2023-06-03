@@ -167,3 +167,31 @@ soulmate/=lib/soulmate/src/
 - npm i @openzeppelin/contracts
 
 - remappings.txt
+
+## forge fmt 
+
+> Auto format code
+> 
+
+## Console log
+
+## Authentication 
+
+## Error
+
+## Event 
+
+## Time
+
+## Send ETH 
+
+## Signature 
+
+## Gas-Less Token Transfer 
+
+## Fork 
+
+## mint 1 million DAI on Mainnnet Fork 
+
+## Fuzz
+
