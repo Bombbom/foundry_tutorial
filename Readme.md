@@ -163,3 +163,7 @@ ds-test/=lib/forge-std/lib/ds-test/src/
 forge-std/=lib/forge-std/src/
 soulmate/=lib/soulmate/src/
 ```
+
+- npm i @openzeppelin/contracts
+
+- remappings.txt
