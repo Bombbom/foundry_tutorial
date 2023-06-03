@@ -14,4 +14,18 @@ contract CounterV2Test is Test{
         counter.inc();
         assertEq(count_before,counter.count()-1);
     }
+    
+    function testDec() public {
+        uint count_before = counter.count();
+        counter.dec();
+        assertEq(count_before, counter.count()+1);
+    }
+    function testFailDec() public {
+        counter.dec();
+    }
+
+    function testDecUnderflow() public {
+        vm.expectRevert(stdError.arithmeticError);
+        counter.dec();
+    }
 }
