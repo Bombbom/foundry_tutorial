@@ -120,3 +120,15 @@ optimizer_runs = 200
 ```
 
 ## Remapping
+- forge install
+- forge remappings
+- forge update
+- forge remove
+- npm install Openzeppelin
+- remappings.txt
+
+
+- install solmate:
+`
+forge install rari-capital/solmate `
+
