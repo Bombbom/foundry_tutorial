@@ -7,6 +7,11 @@
 
 ![forge test](Asset/20230603114107.png)
 ## Write basic tests 
+- counterV2
+  - test setup, ok, fail
+  - match
+  - verbose 
+  - gas report
 
 - Test function Inc:
 ![Write foundry test ](Asset/20230603114540.png)
@@ -94,3 +99,7 @@ Encountered 1 failing test in test/CounterV2.t.sol:CounterV2Test
 
 Encountered a total of 1 failing tests, 3 tests succeeded
 ```
+
+- gas report 
+
+![Gas report](Asset/20230603115725.png)
