@@ -129,6 +129,37 @@ optimizer_runs = 200
 
 
 - install solmate:
-`
-forge install rari-capital/solmate `
 
+Install a dependency:
+
+
+`forge install transmissions11/solmate`
+
+Install a specific version of a dependency:
+
+
+`forge install transmissions11/solmate@v7`
+
+Install multiple dependencies:
+
+
+`forge install transmissions11/solmate@v7 OpenZeppelin/openzeppelin-contracts`
+
+Install a dependency without creating a submodule:
+
+
+`forge install --no-git transmissions11/solmate`
+
+Install a dependency in a specific folder:
+
+
+`forge install soulmate=transmissions11/solmate`
+
+- forge remappings
+
+```
+$forge remappings 
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+soulmate/=lib/soulmate/src/
+```
