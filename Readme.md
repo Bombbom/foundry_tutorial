@@ -195,3 +195,7 @@ soulmate/=lib/soulmate/src/
 
 ## Fuzz
 
+## Resource 
+
+- [Foundry book](https://book.getfoundry.sh/)
+- [Smart Contract Programmer](https://www.youtube.com/playlist?list=PLO5VPQH6OWdUrKEWPF07CSuVm3T99DQki)
