@@ -103,3 +103,20 @@ Encountered a total of 1 failing tests, 3 tests succeeded
 - gas report 
 
 ![Gas report](Asset/20230603115725.png)
+
+## Set version 
+
+- foundry.toml 
+
+```
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.17"
+optimizer = true 
+optimizer_runs = 200
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+```
+
+## Remapping
