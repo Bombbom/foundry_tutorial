@@ -1,4 +1,29 @@
-## Hello foundry
+# 1. Foundry Zero to Master
+
+- [1. Foundry Zero to Master](#1-foundry-zero-to-master)
+  - [1.1. Hello foundry](#11-hello-foundry)
+  - [1.2. Write basic tests](#12-write-basic-tests)
+  - [1.3. Set version](#13-set-version)
+  - [1.4. Remapping](#14-remapping)
+  - [1.5. forge fmt](#15-forge-fmt)
+  - [1.6. Console log](#16-console-log)
+  - [1.7. Authentication](#17-authentication)
+  - [1.8. Error](#18-error)
+  - [1.9. Event](#19-event)
+  - [1.10. Time](#110-time)
+  - [1.11. Send ETH](#111-send-eth)
+  - [1.12. Signature](#112-signature)
+  - [1.13. Gas-Less Token Transfer](#113-gas-less-token-transfer)
+  - [1.14. Fork](#114-fork)
+  - [1.15. mint 1 million DAI on Mainnnet Fork](#115-mint-1-million-dai-on-mainnnet-fork)
+  - [1.16. Fuzz](#116-fuzz)
+  - [1.17. Invariant Testing](#117-invariant-testing)
+  - [1.18. FFI](#118-ffi)
+  - [1.19. Differential Test](#119-differential-test)
+  - [1.20. Resource](#120-resource)
+
+
+## 1.1. Hello foundry
 
 - Install 
 - forge init hello_foundry 
@@ -6,7 +31,7 @@
   - test
 
 ![forge test](Asset/20230603114107.png)
-## Write basic tests 
+## 1.2. Write basic tests 
 - counterV2
   - test setup, ok, fail
   - match
@@ -104,7 +129,7 @@ Encountered a total of 1 failing tests, 3 tests succeeded
 
 ![Gas report](Asset/20230603115725.png)
 
-## Set version 
+## 1.3. Set version 
 
 - foundry.toml 
 
@@ -119,7 +144,7 @@ optimizer_runs = 200
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
 ```
 
-## Remapping
+## 1.4. Remapping
 - forge install
 - forge remappings
 - forge update
@@ -168,34 +193,41 @@ soulmate/=lib/soulmate/src/
 
 - remappings.txt
 
-## forge fmt 
+## 1.5. forge fmt 
 
 > Auto format code
 > 
 
-## Console log
+## 1.6. Console log
 
-## Authentication 
+## 1.7. Authentication 
 
-## Error
+## 1.8. Error
 
-## Event 
+## 1.9. Event 
 
-## Time
+## 1.10. Time
 
-## Send ETH 
+## 1.11. Send ETH 
 
-## Signature 
+## 1.12. Signature 
 
-## Gas-Less Token Transfer 
+## 1.13. Gas-Less Token Transfer 
 
-## Fork 
+## 1.14. Fork 
 
-## mint 1 million DAI on Mainnnet Fork 
+## 1.15. mint 1 million DAI on Mainnnet Fork 
 
-## Fuzz
+## 1.16. Fuzz
 
-## Resource 
+## 1.17. Invariant Testing
+
+
+## 1.18. FFI
+
+## 1.19. Differential Test 
+
+## 1.20. Resource 
 
 - [Foundry book](https://book.getfoundry.sh/)
 - [Smart Contract Programmer](https://www.youtube.com/playlist?list=PLO5VPQH6OWdUrKEWPF07CSuVm3T99DQki)
